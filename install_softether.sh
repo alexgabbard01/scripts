@@ -60,4 +60,6 @@ update-rc.d vpnserver defaults
 
 /etc/init.d/vpnserver start
 
+sleep 2
+
 netstat -ntlp
