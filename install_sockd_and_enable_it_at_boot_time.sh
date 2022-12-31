@@ -61,3 +61,5 @@ chmod +x /etc/systemd/system/rc-local.service
 systemctl enable rc-local
 systemctl start rc-local.service
 systemctl status rc-local.service
+sleep 2
+netstat -ntlp
